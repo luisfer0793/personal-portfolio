@@ -1,0 +1,39 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  padding: 0 7rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar__list-item {
+  padding: 2.5rem 3rem;
+}
+
+.navbar__list-item:last-child {
+  padding-right: 0;
+}
+
+.navbar__list-link {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: currentColor;
+  transition: color 250ms linear;
+}
+
+.navbar__list-link:hover {
+  color: #ff4262;
+}
