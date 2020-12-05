@@ -1,0 +1,46 @@
+.socialbar {
+  position: fixed;
+  display: flex;
+  left: 7rem;
+  bottom: 0;
+  list-style: none;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socialbar::after {
+  width: 0.1rem;
+  height: 9rem;
+  content: '';
+  background-color: #2e2e2e;
+}
+
+.socialbar__item {
+  margin-bottom: 3.5rem;
+}
+
+.socialbar__icon {
+  font-size: 2.2rem;
+  color: #2e2e2e;
+  transition: color 250ms linear, transform 250ms linear;
+}
+
+.socialbar__icon:hover {
+  transform: translateX(1rem);
+}
+
+.socialbar__icon--github:hover {
+  color: #2EA44F;
+}
+
+.socialbar__icon--linkedin:hover {
+  color: #0A66C2;
+}
+
+.socialbar__icon--twitter:hover {
+  color: #1DA1F2;
+}
+
+.socialbar__icon--instagram:hover {
+  color: #D32681;
+}
