@@ -6,11 +6,26 @@ import Button from 'components/common/Button/Button';
 import 'components/common/Navbar/Navbar.css';
 
 const links = [
-  {text: 'Home', to: '/'}, 
-  {text: 'About', to: '/about'}, 
-  {text: 'Blog', to: '/blog'}, 
-  {text: 'Portfolio', to: '/portfolio'}, 
-  {text: 'Contact', to: '/contact'}
+  {
+    text: 'Home', 
+    to: '/'
+  },
+  {
+    text: 'About', 
+    to: '/about'
+  },
+  {
+    text: 'Blog', 
+    to: '/blog'
+  },
+  {
+    text: 'Portfolio', 
+    to: '/portfolio'
+  },
+  {
+    text: 'Contact', 
+    to: '/contact'
+  }
 ];
 
 const Navbar = props => (

@@ -1,4 +1,4 @@
-import 'components/sections/Section/Section.css';
+import 'components/common/Section/Section.css';
 
 const Section = ({children}) => (
   <section className="section">

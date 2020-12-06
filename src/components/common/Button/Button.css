@@ -1,19 +1,19 @@
 .button {
   display: inline-block;
   padding: 1.5rem 3.5rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--primary-white);
   outline: none;
-  background-color: #0b1015;
+  background-color: var(--primary-black);
   transition: color 250ms linear, background-color 250ms linear;
 }
 
 .button:hover {
-  color: #0b1015;
-  background-color: #d3d3d3;
+  color: var(--primary-black);
+  background-color: var(--secondary-red);
 }

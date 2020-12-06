@@ -1,0 +1,23 @@
+.skillcard {
+  padding: 6rem;
+  text-align: center;
+  background-color: var(--primary-white);
+}
+
+.skillcard__icon {
+  font-size: 4rem;
+  color: var(--primary-red);
+}
+
+.skillcard__title {
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--primary-black);
+}
+
+.skillcard__text {
+  color: var(--secondary-black);
+  padding-top: 3rem;
+}
