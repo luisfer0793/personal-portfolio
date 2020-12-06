@@ -7,12 +7,13 @@
 
 .hero__headings {
   position: relative;
+  background-color: var(--primary-white);
 }
 
 .hero__title-container {
   position: absolute;
   padding: 0 14rem 0 7rem;
-  top: 15rem;
+  top: 18rem;
   left: 7rem;
 }
 
@@ -28,7 +29,7 @@
 
 .hero__text {
   font-size: 1.8rem;
-  color: #454545;
+  color: var(--secondary-black);
 }
 
 .hero__image {
