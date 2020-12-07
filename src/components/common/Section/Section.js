@@ -1,7 +1,7 @@
 import 'components/common/Section/Section.css';
 
-const Section = ({children}) => (
-  <section className="section">
+const Section = ({id, children}) => (
+  <section className="section" id={id}>
     {children}
   </section>
 );
