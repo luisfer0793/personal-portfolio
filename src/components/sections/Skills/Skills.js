@@ -4,8 +4,8 @@ import SkillCardList from 'components/common/SkillCardList/SkillCardList';
 
 const Skills = props => (
   <>
-    <SectionTitle text="Skills" subtitle="What can i do?"/>
-    <Section>
+    <Section id="#skills">
+    <SectionTitle text="Skills" subtitle="What can i do?" />
       <SkillCardList />
     </Section>
   </>

@@ -9,7 +9,7 @@ const SkillCardList = props => {
     {
       icon: faAnchor,
       title: 'UI/UX Design',
-      text: 'Planning, design and prototyping of websites and mobile applications using specialized software such as Adobe XD and Figma.'
+      text: 'Planning, design and prototyping websites and mobile applications using specialized software such as Adobe XD and Figma.'
     },
     {
       icon: faMobileAlt,
@@ -25,8 +25,13 @@ const SkillCardList = props => {
 
   return (
     <div className="skillcard__list">
-      {skills.map(skill => (
-        <SkillCard title={skill.title} icon={skill.icon} text={skill.text} />
+      {skills.map((skill, index) => (
+        <SkillCard 
+          title={skill.title} 
+          icon={skill.icon} 
+          text={skill.text}
+          key={index}
+        />
       ))}
     </div>
   );
