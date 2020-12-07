@@ -1,0 +1,13 @@
+.contact {
+  position: relative;
+  text-align: center;
+  background-color: var(--primary-black);
+  z-index: 15;
+}
+
+.contact__text {
+  padding: 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--primary-white);
+}
