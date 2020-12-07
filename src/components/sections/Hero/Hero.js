@@ -6,7 +6,7 @@ import bgImage from 'assets/images/hero-bg.jpg';
 
 import 'components/sections/Hero/Hero.css';
 
-const Hero = props => {
+const Hero = ({emailHandler}) => {
   return (
     <div className="hero">
       <div className="hero__headings">
@@ -21,7 +21,7 @@ const Hero = props => {
             Do you want to keep in touch? Send me a message and I will contact you.
           </p>
           <br />
-          <Button label="Contact Me"/>
+          <Button label="Contact Me" handler={emailHandler}/>
         </div>
       </div>
       <Parallax strength={300}>

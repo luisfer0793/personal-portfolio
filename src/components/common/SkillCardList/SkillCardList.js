@@ -19,7 +19,7 @@ const SkillCardList = props => {
     {
       icon: faLaptopCode,
       title: 'Web Development',
-      text: ''
+      text: 'I like to code things from scratch, and enjoy bringing ideas to life in the browser.'
     },
   ];
 

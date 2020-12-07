@@ -13,7 +13,14 @@
   transition: color 250ms linear, background-color 250ms linear;
 }
 
-.button:hover {
+.white {
+  color: var(--primary-black);
+  background-color: var(--primary-white);
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.button:hover,
+.white:hover {
   color: var(--primary-black);
   background-color: var(--secondary-red);
 }

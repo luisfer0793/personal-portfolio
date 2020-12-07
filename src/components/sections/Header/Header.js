@@ -4,10 +4,10 @@ import Hero from 'components/sections/Hero/Hero';
 
 import 'components/sections/Header/Header.css';
 
-const Header = ({resumeHandler}) => {
+const Header = ({resumeHandler, emailHandler}) => {
   return (
     <header className="header">
-      <Hero />
+      <Hero emailHandler={emailHandler}/>
       <Navbar resumeHandler={resumeHandler}/>
       <Socialbar />
     </header>
