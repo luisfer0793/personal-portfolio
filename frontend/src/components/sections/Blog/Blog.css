@@ -1,0 +1,18 @@
+.blog__canvas {
+  position: relative;
+  background-image: 
+    linear-gradient(to right bottom, rgba(10, 30, 50, .6), rgba(23, 25, 29, 0.5)),
+    url('assets/images/blog-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -15;
+}
+
+.blog__title {
+  font-size: 7rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-white);
+}
